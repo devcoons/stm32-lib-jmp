@@ -1,0 +1,22 @@
+/*!
+	@file   lib_jmp_config.h
+	@brief  <brief description here>
+	@t.odo	-
+*/
+
+/******************************************************************************
+* Preprocessor Definitions & Macros
+******************************************************************************/
+
+#define JMP_VALIDATE_PARTITION
+#define JMP_BOOTLOADER_DATA_ADDRESS			0x08000000
+#define JMP_BOOTLOADER_FIRMWARE_ADDRESS		0x08000000
+#define JMP_APPICATION_DATA_ADDRESS			0x08020000
+#define JMP_APPICATION_FIRMWARE_ADDRESS		0x08020020
+#define JMP_APPICATION_VALIDATION_VALUE 	0x20018000
+//#define JMP_APPLICATION_USE_ISCB_DisableDCache
+
+/******************************************************************************
+* EOF - NO CODE AFTER THIS LINE
+******************************************************************************/
+
